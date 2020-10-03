@@ -1,0 +1,17 @@
+[advice]
+   statusHints = false
+
+[color]
+   branch = auto
+   diff = auto
+   interactive = auto
+   status = auto
+   ui = auto
+
+[diff]
+  algorithm = patience
+
+[core]
+   attributesfile = @gitattributes@
+   excludesfile = @gitignore@
+   whitespace = -blank-at-eof, tab-in-indent
